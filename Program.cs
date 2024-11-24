@@ -311,7 +311,7 @@
         
         for (int i = 0; i < array.Length; i++)
         {
-            array[i] = random.Next(min, max + 1);
+            array[i] = random.Next(min, max);
         }
     }
 
